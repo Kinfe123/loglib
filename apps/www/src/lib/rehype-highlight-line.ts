@@ -1,8 +1,8 @@
 // Inspired by https://github.com/j0lv3r4/mdx-prism
 
-const hastToHtml = require('hast-util-to-html');
-const unified = require('unified');
-const parse = require('rehype-parse');
+// const hastToHtml = require('hast-util-to-html');
+// const unified = require('unified');
+// const parse = require('rehype-parse');
 
 const lineNumberify = function lineNumberify(ast, lineNum = 1) {
   let lineNumber = lineNum;

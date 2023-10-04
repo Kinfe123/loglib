@@ -1,13 +1,11 @@
-// import { Logo } from "#/ui/icons";
-// import { APP_DOMAIN } from "#/lib/constants"
 import SpeedImage from "./ui.jpg";
 import Image from "next/image";
-// import SpeedUI from "./speedui.jpg";
+
 import styles from "./cta.module.css";
 import SpeeddyUI from "../../../../public/speedui.jpg";
 
 export default function CTA() {
-  return (
+    return (
     <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 relative">
       <div className={styles.content}></div>
       <div className={styles.main}></div>

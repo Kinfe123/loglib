@@ -8,11 +8,6 @@ import Prism from 'prismjs';
 import "prismjs/themes/prism-tomorrow.css";
 import CodeBlock, {CodeBlockProps} from "./code-block";
 import { Clipboard , ClipboardCheck } from "lucide-react";
-
-
-// import {CopyButton} from "";
-import {CopyButton} from '@/components/copy-button'
-
 import {useToast} from '@/components/ui/use-toast'
 import { Toast } from "../ui/toast";
 
